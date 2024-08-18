@@ -1,4 +1,5 @@
 {
+	"name": "single-call",
 	"bundle": "ts",
 	"files": "*"
 }

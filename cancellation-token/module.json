@@ -1,4 +1,5 @@
 {
+	"name": "cancelation-token",
 	"bundle": "ts",
 	"files": "*"
 }
