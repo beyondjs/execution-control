@@ -1,0 +1,37 @@
+{
+	"name": "@beyond-js/execution-control",
+	"version": "1.0.0",
+	"description": "A lightweight library for managing single-function execution and cancellation tokens in asynchronous operations.",
+	"license": "MIT",
+	"modules": {
+		"path": "./"
+	},
+	"deployment": {
+		"distributions": [
+			{
+				"name": "web",
+				"platform": "web",
+				"maps": "external",
+				"ports": {
+					"bundles": 8102
+				},
+				"ts": {
+					"compiler": "tsc"
+				}
+			},
+			{
+				"name": "node",
+				"platform": "node",
+				"ports": {
+					"bundles": 8103
+				},
+				"ts": {
+					"compiler": "tsc"
+				}
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.18"
+	}
+}
